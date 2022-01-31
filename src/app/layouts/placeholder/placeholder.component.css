@@ -1,0 +1,15 @@
+
+
+.placeholder {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: #C31815;
+    align-items: center;
+    height: 4rem;   
+}
+
+.placeholder button {
+    padding: 10px 10px;
+    color: #C31815;
+}

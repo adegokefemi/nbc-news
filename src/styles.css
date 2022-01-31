@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E5E5E5;
+    line-height: 1.4;
+}
+.container {
+    flex: 1 1 100%;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.d-flex { display: flex; }
+.d-flex.flex-column { flex-direction: column; }
+.d-flex.justify-center { justify-content: center;}
+.d-flex.align-center { align-items: center;}
+.d-flex.space-between { justify-content: space-between;}
+.d-flex.space-around { justify-content: space-around;}
+.d-flex.flex-grow {flex-grow: 1;}
+.red { color: #C31815;}
+.pt, .py {padding-top: 15px;}
+.pb, .py {padding-bottom: 15px;}
+.pl, .px {padding-left: 15px;}
+.pr, .px {padding-right: 15px;}
+.ptl, .pyl {padding-top: 2rem;}
+.pbl, .pyl {padding-bottom: 2rem;}
+.pll, .pxl {padding-left: 2rem;}
+.prl, .pxl {padding-right: 2rem;}
+.col-6 {flex: 1 1 50%;}
+hr {border-top: 1px #000000; margin: 0; padding: 0;}
+.grid { display: grid; column-gap: 1rem; row-gap: 1rem;}
+.list-unstyle {list-style: none;}
+.mb0 {margin-bottom: 0;}
+.font-bd {font-weight: 600;}
+.font-sm {font-size: 12px;}
+.icon {width: 1rem;}

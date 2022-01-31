@@ -1,0 +1,29 @@
+.link-tab {
+    background-color: #fff;
+    padding: 10px;
+}
+.link-tab li {
+    position: relative;
+}
+.link-tab .active::after {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #C31815;
+}
+
+.headline ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px;
+}
+
+.headline img {
+    align-items: center;
+}
+.grid {
+    grid-template-columns: 1fr 1fr;
+}

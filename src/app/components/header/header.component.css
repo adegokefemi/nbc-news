@@ -1,0 +1,40 @@
+#header {
+    height: 3rem;
+    background-color: #FFFFFF;
+}
+#header .logo {
+    height: 2rem;
+}
+#header img.header-icon {
+    height: 12px;
+    object-fit: contain;
+}
+#header .icon-group img.header-icon {
+    margin-left: 2rem;
+    height: 16px;
+}
+#header nav .ul {
+    max-width: 600px;
+}
+#header nav .ul li {
+    position: relative;
+    padding: 0 5px;
+}
+
+#header nav .ul li.active::before {
+    position: absolute;
+    left: -3px;
+    top: calc(50% - 2.5px);
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #C31815;
+    border-radius: 3px;
+}
+
+.header img {
+    margin-left: 5em;
+    align-items: center;
+    margin-top: 1rem;
+
+}

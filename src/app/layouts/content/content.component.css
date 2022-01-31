@@ -1,0 +1,9 @@
+.img-wrapper img {
+    width: 100%;
+    object-fit: contain;
+}
+.content .icons img {
+    height: 12px;
+    object-fit: contain;
+    margin-left: 1.5rem;
+}

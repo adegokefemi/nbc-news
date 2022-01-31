@@ -1,0 +1,21 @@
+.ripple {
+    width: 1.5rem;
+}
+.articles {
+    flex: 1 1 66%;
+}
+.aside {
+    flex: 1 1 33%;
+}
+.aside p, .aside div {
+    width: 100%;
+}
+.aside img {
+    max-width: 100%;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}

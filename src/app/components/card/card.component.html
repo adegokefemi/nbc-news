@@ -1,0 +1,27 @@
+<article class="card">
+    <div class="card-header">
+        <img [src]="article?.urlToImage" alt="image">
+    </div>
+    <div class="card-body d-flex flex-column space-between">
+        <div>
+            <h3>{{article?.title}}</h3>
+            <p class="py">{{article?.description}}</p>
+        </div>
+        <p class="font-sm"> <span class="pr">2 hours ago</span> <span class="author">By Lucy Hiddleston  |  4min read</span></p>
+    </div>
+    <hr>
+    <div class="footer d-flex justify-center py align-ceter">
+        <div class="reaction active">
+            <img alt="Like" src="./assets/img/svg/like.svg">
+            <span>25</span>
+        </div>
+        <div class="reaction">
+            <img alt="Share" src="./assets/img/svg/upload.svg">
+            <span>4</span>
+        </div>
+        <div class="reaction">
+            <img alt="Tags" src="./assets/img/svg/tag.svg">
+            <span>7</span>
+        </div>
+    </div>
+</article>

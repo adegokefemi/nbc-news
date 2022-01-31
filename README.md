@@ -1,4 +1,6 @@
 # Newspage
+Acess the live version on [https://nbc-news.herokuapp.com/](https://nbc-news.herokuapp.com/)
+The feeds may not show because of cross origin response issue with https://newsapi.org/.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 

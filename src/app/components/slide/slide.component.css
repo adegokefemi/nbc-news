@@ -27,3 +27,11 @@
 .grid {
     grid-template-columns: 1fr 1fr;
 }
+
+button {
+    padding: 0.5rem 2rem;
+    color: #C31815;
+    border: 1px solid #C31815;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+}

@@ -9,6 +9,8 @@ import { PlaceholderComponent } from './layouts/placeholder/placeholder.componen
 import { HeadlineComponent } from './components/headline/headline.component';
 import { SlideComponent } from './components/slide/slide.component';
 import { CardComponent } from './components/card/card.component';
+import { EditorComponent } from './layouts/editor/editor.component';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardComponent } from './components/card/card.component';
     PlaceholderComponent,
     HeadlineComponent,
     SlideComponent,
-    CardComponent
+    CardComponent,
+    EditorComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
